@@ -1,0 +1,79 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+h2 {
+    font-size: 1.3em;
+    color: #25a2c3;
+    text-align: center;
+}
+
+/* HEADER */
+#logo{
+width: 85px;
+}
+.logo-section{
+    margin-bottom: 50px;
+    padding: 25px;
+    background-color: black;
+}
+header {
+    text-align: center;
+    background-image: url(assets/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#button{
+    background-color: #f04c2f;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+
+.sez1, .garanzia, .foto1, .foto2, .foto3{
+    text-align: center;
+}
+.garanzia{
+    background-color: #f04c2f;
+}
+.foto1{
+    border: solid 1px #56595d;
+    margin: 25px;
+    text-align: center;
+}
+.foto2{
+    border: solid 1px #56595d;
+    margin: 25px;
+    text-align: center;
+}
+.foto3{
+    border: solid 1px #56595d;
+    margin: 25px;
+    text-align: center;
+}
+/* FOOTER */
+footer {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 80px;
+    background: #25a2c3;
+    background-size: cover;
+}
